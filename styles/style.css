@@ -1,0 +1,70 @@
+
+:root{
+    --blue1:rgb(207 250 254);
+    --blue2:rgb(165 243 252);
+    --blue3:rgb(103 232 249);
+    --backround1:rgb(224 231 255);
+}
+
+
+body{
+background-color: var(--backround1);
+}
+*{
+    font-family: "Nerko One", cursive;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    padding: 2px;
+    
+}
+.image img{
+width: 70%;
+height: 70%;
+border: 2px solid black;
+border-radius: 50%;
+}
+
+.titles{
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+    width: 20vw;
+    height: 300px;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 30px;
+    flex-direction: column;
+  
+
+}
+.main{
+    display: flex;
+  
+}
